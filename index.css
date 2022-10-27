@@ -1,0 +1,129 @@
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #f2f2f2;
+    }
+    
+    section {
+        position: relative;
+        height: 550px;
+        width: 1075px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .container {
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .card {
+        position: relative;
+        background: #fff;
+        border-radius: 2vmax;
+        margin: 2vmax 0;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .card::before {
+        content: "";
+        position: absolute;
+        height: 40%;
+        width: 100%;
+        background: #7d2ae8;
+        border-radius: 20px 20px 0 0;
+    }
+    
+    .card-content {
+        padding: 5vmax 5vmax;
+    }
+    
+    .name-profession {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2vmax;
+    }
+    
+    .name {
+        font-size: 3vmax;
+        font-weight: 600;
+    }
+    
+    .profesion {
+        color: #7d2ae8;
+        font-size: 3vmax;
+        font-weight: 500;
+    }
+    
+    img {
+        width: 100%;
+        height: 100%;
+        clip-path: circle(45%);
+        object-fit: cover;
+        background-color: #7d2ae8;
+        border-radius: 50%;
+    }
+    
+    .image {
+        width: 25vmax;
+        background-color: white;
+        border-radius: 40%;
+        height: 25vmax;
+    }
+    
+    .media-icons {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 2.5vmax;
+    }
+    
+    i {
+        font-size: 3.5vmax;
+    }
+    
+    .instagram:hover {
+        color: #e95950;
+    }
+    
+    .facebook:hover {
+        color: #3b5998;
+    }
+    
+    .twitter:hover {
+        color: #1DA1F2;
+    }
+    
+    #button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    button {
+        background: #7d2ae8;
+        border: 1px solid #7d2ae8;
+        padding: .2em .2em;
+        font-size: 1vmax;
+        color: #fff;
+        font-size: 1.3vmax;
+        width: 13vmax;
+        height: 3vmax;
+        margin-bottom: 2vmax;
+        border-radius: 1.5vmax;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
